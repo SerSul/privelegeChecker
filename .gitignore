@@ -1,0 +1,26 @@
+# Node artifacts
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Addon build directory
+/build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Ignore npm package-lock.json
+package-lock.json
+package.json
+
+# Ignore node-gyp specific files
+node_modules
+.node-gyp
+
+# Include the built Addon file
+/build/Release/privilege_check.node
