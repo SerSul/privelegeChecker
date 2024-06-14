@@ -32,7 +32,8 @@ server.bat
    Выполните следующие команды в командной строке:
 
    ```sh
-    npm install -g node-gyp  
+    npm install -g node-gyp
+    npm install node-addon-api express  
     node-gyp configure      
     node-gyp build          
 
